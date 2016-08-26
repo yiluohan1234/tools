@@ -9,7 +9,7 @@
 #######################################################################
 
 #使用ssh-keygen命令生成密钥
-ssh-keygen -t rsa -C "1097819275@qq.com"
+ssh-keygen -t rsa -C "1097@qq.com"
 
 #配置用户名和电子邮件
 git config --global user.name "yiluohan"
