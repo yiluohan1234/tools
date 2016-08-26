@@ -12,8 +12,8 @@
 ssh-keygen -t rsa -C "1097819275@qq.com"
 
 #配置用户名和电子邮件
-git config --global user.name "yiluohan1234"
-git config --global user.email "1097189275@qq.com"
+git config --global user.name "yiluohan"
+git config --global user.email "10971@qq.com"
 
 #配置默认使用的文本编辑器
 git config --global core.editor vim
