@@ -15,6 +15,7 @@
 #	local  src_dir dst_dir            local copy
 #	remote src_dir dst_dir            remote copy
 #	log    src_dir                    list the log
+#	svnup  src_dir                    svn up
 #local=>dst_dir:/home/ubuntu/api_lua(default)
 #remote=>dst_dir:ubuntu@123.167.207.223:/home/ubuntu/remote/webroot(default)
 
@@ -212,6 +213,7 @@ Usage()
 	echo "    local  src_dir dst_dir            local copy"
 	echo "    remote src_dir dst_dir            remote copy"
 	echo "    log    src_dir                    list the log"
+	echo "    svnup  src_dir                    svn up"
 }
 #判断一个变量是否为空
 judge_null()
