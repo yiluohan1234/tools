@@ -64,6 +64,16 @@ show_log()
 	cat $log_file
 	return 0
 }
+
+#显示日志更新列表
+#    @input:src_dir
+#    @output 0
+show_content()
+{
+	local content_file=$1/content
+	cat $content_file
+	return 0
+}
 #更新svn并将更新的文件或目录写入content文件
 #    @input:svn_path
 #    @output: 0
@@ -214,6 +224,7 @@ Usage()
 	echo "    remote src_dir dst_dir            remote copy"
 	echo "    log    src_dir                    list the log"
 	echo "    svnup  src_dir                    svn up"
+	echo "    content src_dir                   list content"
 }
 #判断一个变量是否为空
 judge_null()
@@ -256,6 +267,8 @@ main()
 			;;
 		version)
 			echo "v1.0.0"
+		content)
+			show_content $src_dir
 			;;
 	esac
 	return 0
