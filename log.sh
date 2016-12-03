@@ -38,5 +38,6 @@ LOG()
 			;;
 	esac
 	return 0
+	
 }
 LOG $1 $2 $3 $4 $5
