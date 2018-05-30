@@ -36,5 +36,5 @@ sh bcompare.sh compare_diff_num -s 20180520 -e 20180528
 ```
 sh data_prbcompare.sh get_diff_list -d 20180528
 ```
-screen_shot
+## screen_shot
 ![](https://github.com/yiluohan1234/tools/blob/master/bcompare/screen_shot_diff.png)
