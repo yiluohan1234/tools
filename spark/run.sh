@@ -57,3 +57,5 @@ main $month $prov_id
 #
 #         上述代码中 total-executor-cores=num-executors*executor-cores(仅供参考)
 #         官网地址：http://spark.apache.org/docs/2.1.0/submitting-applications.html
+#         博客参考：https://blog.csdn.net/u012102306/article/details/51637366
+
