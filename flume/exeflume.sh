@@ -27,18 +27,6 @@ usage()
             echo "        ./exeflume.sh start -c conf -f conf/flume.conf -n agent1"
             echo ""
             ;;
-        stop)
-            echo "Usage: exeflume.sh stop[-h|--help]"
-            echo ""
-            echo "  This is a quick example of using a bash script to stop flume:"
-            echo ""
-            echo "Params:"
-            echo ""
-            echo "Examples:"
-            echo ""
-            echo "        ./exeflume.sh stop"
-            echo ""
-            ;;
         restart)
             echo "Usage: exeflume.sh restart[-h|--help]"
             echo ""
