@@ -243,7 +243,6 @@ get_list_ftp()
 # remote_dir->远程ftp服务器的文件夹路径
 # local_dir->本地保存数据的文件夹
 # download_from_file-> 需要更新的文件列表
-# wget --ftp-user=jspftp --ftp-password=qeAD13$ ftp://172.30.107.4//data/cyf_test/1.txt -o wget.log -O /data/cyf/1.txt
 get_file_from_ftp()
 {
     local ftp_string=""
